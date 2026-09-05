@@ -12,15 +12,7 @@
 
   <br />
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=1000&color=06B6D4&center=true&vCenter=true&width=850&lines=Full+Stack+AI+Developer;Founder+%26+Lead+Architect+%40+Pragna+Setu;LLM+Orchestration+%26+Socratic+AI+Engines;Distributed+Systems+%26+Systems+Architect" alt="Typing SVG" />
-
-  <br />
-
-  ```bash
-  dharsan@pragna-setu:~$ agy init --agent="Acharya" --mode="socratic"
-  [SYSTEM_STATUS: ONLINE] [LATENCY: 218ms] [GUARDRAILS: ACTIVE] [ZERO-LEAKAGE: 94.2%]
-  [ACTIVE_DOMAIN: Full-Stack AI Pipelines • Multi-Agent Orchestration • High-Concurrency Systems]
-  ```
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=Full+Stack+AI+Developer;Founder+%40+Pragna+Setu;LLM+Orchestration+Specialist;Distributed+Systems+Architect" alt="Typing SVG" />
 
 </div>
 
