@@ -12,7 +12,7 @@
 
   <br />
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=1000&color=06B6D4&center=true&vCenter=true&width=620&lines=Full+Stack+AI+Developer;Founder+%26+Lead+Architect+%40+Pragna+Setu;LLM+Orchestration+%26+Socratic+AI+Engines;Distributed+Systems+%26+High-Concurrency+Architect" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=1000&color=06B6D4&center=true&vCenter=true&width=850&lines=Full+Stack+AI+Developer;Founder+%26+Lead+Architect+%40+Pragna+Setu;LLM+Orchestration+%26+Socratic+AI+Engines;Distributed+Systems+%26+Systems+Architect" alt="Typing SVG" />
 
 </div>
 
@@ -125,12 +125,17 @@ I am a **Full Stack AI Developer** and **Systems Architect** based in **Bangalor
 ### 📊 GitHub Activity & Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DharshanTeja&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=06B6D4&icon_color=10B981&text_color=9CA3AF" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DharshanTeja&theme=tokyonight&hide_border=true&background=0D1117&stroke=06B6D4&ring=06B6D4&fire=10B981&currStreakLabel=06B6D4" alt="GitHub Streak" width="48%" />
+  <img src="https://komarev.com/ghpvc/?username=DharshanTeja&style=for-the-badge&color=06B6D4&labelColor=18181B" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/DharshanTeja?style=for-the-badge&logo=github&color=10B981&labelColor=18181B" alt="Followers" />
+  <img src="https://img.shields.io/badge/Status-Available_for_Collabs-7928CA?style=for-the-badge&logo=target&logoColor=white" alt="Status" />
 </div>
 
+<br />
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DharshanTeja&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=06B6D4&text_color=9CA3AF" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=DharshanTeja&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=06B6D4&icon_color=10B981&text_color=9CA3AF" alt="GitHub Stats" height="165" />
+  &nbsp;
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DharshanTeja&theme=tokyonight&hide_border=true&background=0D1117&stroke=06B6D4&ring=06B6D4&fire=10B981&currStreakLabel=06B6D4" alt="GitHub Streak" height="165" />
 </div>
 
 ---
