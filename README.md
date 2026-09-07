@@ -24,7 +24,7 @@
 
 I am a **Full Stack AI Developer** and **Systems Architect** based in **Bangalore, India**. I specialize in bridging **cutting-edge GenAI & LLM Orchestration** with **high-performance distributed architectures**:
 
-- 🚀 **Founder & Lead Architect** at **[Pragna Setu](https://pragnasetu.in/)**: Designed and engineered a production Socratic AI Tutoring Engine with three domain-isolated pedagogical agents (*Acharya*, *Manthan*, *Yantra*), reducing direct-answer leakage by **94.2%** while delivering streaming responses at **< 240ms TTFT**.
+- 🚀 **Founder & Lead Architect** at **[Pragna Setu](https://pragnasetu.in/)**: Designed and engineered a production Socratic AI Tutoring Engine with three domain-isolated pedagogical agents (**Acharya** for *Science and concepts*, **Manthan** for *Mathematics, numerical physics and logic*, **Yantra** for *Computing and the core engineering subjects*), reducing direct-answer leakage by **94.2%** while delivering streaming responses at **< 240ms TTFT**.
 - 💼 **Software Engineer Intern** at **[Harey Bharath Services](https://hareybharath.com)**: Delivering scalable full-stack applications, recruitment pipelines, and modernizing enterprise platforms into component-driven React & TypeScript environments.
 - 🔬 **Published Whitepaper Author**: Formulated architectures for *First-Principles Socratic AI Inquiry* and *High-Concurrency State Replication in Distributed Multiplayer Virtual Worlds*.
 - 🎮 **Systems & Infrastructure Specialist**: Architected containerized game server clusters (Minecraft, FiveM, RageMP) running on dedicated Linux kernels with Pterodactyl Panel, custom Nginx WebSocket tunneling, and sub-4.2ms frame latencies.
@@ -34,33 +34,34 @@ I am a **Full Stack AI Developer** and **Systems Architect** based in **Bangalor
 ### 📐 Full-Stack AI System Architecture Blueprint
 
 ```text
-┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                             FULL-STACK AI SYSTEM TOPOLOGY                                │
-└──────────────────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│                          FULL-STACK AI SYSTEM TOPOLOGY                           │
+└──────────────────────────────────────────────────────────────────────────────────┘
 
-     ┌────────────────────────────────┐                 ┌────────────────────────────────┐
-     │      CLIENT STREAM SURFACE     │                 │       EDGE & GATEWAY LAYER     │
-     │  • React 19 / TypeScript       │  SSE / WebSockets│  • Zero-Trust Session Auth     │
-     │  • Canvas API & Delta Physics  │ ◄──────────────►│  • Semantic Cache & Telemetry  │
-     │  • High-DPI Reactive HUDs      │   (< 240ms TTFT)│  • Fastify / FastAPI Gateway   │
-     └────────────────────────────────┘                 └───────────────┬────────────────┘
-                                                                        │
-                                   ┌────────────────────────────────────┴────────────────┐
-                                   ▼                                                     ▼
-     ┌─────────────────────────────────────────────────┐               ┌─────────────────────────────────┐
-     │      COGNITIVE AGENT ORCHESTRATION              │               │       EDGE COMPUTER VISION      │
-     │  • Socratic State Machine (SSM) Router          │               │  • U2-Net ONNX Runtime          │
-     │  • Acharya (Sciences) • Manthan (Math & Logic)  │               │  • Salient Clothing Matting     │
-     │  • Yantra (Code & Algorithmic Debugging)        │               │  • Client-Side Zero-Cost Inference
-     └─────────────────────┬───────────────────────────┘               └─────────────────────────────────┘
-                           │
-         ┌─────────────────┼─────────────────┐
-         ▼                 ▼                 ▼
- ┌───────────────┐ ┌───────────────┐ ┌───────────────┐
- │ Local & Cloud │ │ Theory Engine │ │ Asynchronous  │
- │  Inference    │ │ Text Context  │ │ Worker Queue  │
- │(Ollama/Gemini)│ │ & PDF Export  │ │ (MySQL/Redis) │
- └───────────────┘ └───────────────┘ └───────────────┘
+   ┌────────────────────────────────┐              ┌────────────────────────────────┐
+   │     CLIENT STREAM SURFACE      │              │      EDGE & GATEWAY LAYER      │
+   │ • React 19 / TypeScript        │ ◄──────────► │ • Zero-Trust Session Auth      │
+   │ • Canvas API & Delta Physics   │ SSE/Sockets  │ • Semantic Cache & Telemetry   │
+   │ • High-DPI Reactive HUDs       │(<240ms TTFT) │ • Fastify / FastAPI Gateway    │
+   └────────────────────────────────┘              └───────────────┬────────────────┘
+                                                                   │
+                 ┌─────────────────────────────────────────────────┴────────┐
+                 ▼                                                          ▼
+ ┌──────────────────────────────────────────────────────┐   ┌───────────────────────────┐
+ │            COGNITIVE AGENT ORCHESTRATION             │   │   EDGE COMPUTER VISION    │
+ │ • Socratic State Machine (SSM) Router                │   │ • U2-Net ONNX Runtime     │
+ │ • Acharya: Science and Concepts                      │   │ • Salient Clothing Matting│
+ │ • Manthan: Mathematics, Numerical Physics and Logic  │   │ • Client Zero-Cost Infer  │
+ │ • Yantra: Computing and the Core Engineering Subjects│   └───────────────────────────┘
+ └──────────────────────────┬───────────────────────────┘
+                            │
+           ┌────────────────┼────────────────┐
+           ▼                ▼                ▼
+   ┌───────────────┐┌───────────────┐┌───────────────┐
+   │ Local & Cloud ││ Theory Engine ││ Asynchronous  │
+   │   Inference   ││  Text Context ││  Worker Queue │
+   │(Ollama/Gemini)││ & PDF Export  ││ (MySQL/Redis) │
+   └───────────────┘└───────────────┘└───────────────┘
 ```
 
 ---
@@ -92,7 +93,7 @@ I am a **Full Stack AI Developer** and **Systems Architect** based in **Bangalor
 | **💻 Reactive Frontend Surface** | ![React 19](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) ![Canvas API](https://img.shields.io/badge/HTML5_Canvas_Physics-E34F26?style=flat-square&logo=html5&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) |
 | **⚡ High-Throughput Backend & APIs** | ![Python](https://img.shields.io/badge/Python_FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Asynchronous RPC](https://img.shields.io/badge/Async_RPC_Bridge-FF6C37?style=flat-square&logoColor=white) ![RESTful Endpoints](https://img.shields.io/badge/REST_APIs-005571?style=flat-square&logoColor=white) ![WebSockets](https://img.shields.io/badge/WebSockets_SSE-010101?style=flat-square&logo=socket.io&logoColor=white) |
 | **💾 Distributed Persistence & Memory** | ![MySQL](https://img.shields.io/badge/MySQL_Pooling-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis_Memory_Snapshots-DC382D?style=flat-square&logo=redis&logoColor=white) ![JSON Persistence](https://img.shields.io/badge/Atomic_JSON_Store-0B0F19?style=flat-square&logoColor=white) |
-| **🛡️ Infrastructure & Systems** | ![Docker](https://img.shields.io/badge/Docker_Containers-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux_RHEL%2FUbuntu-FCC624?style=flat-square&logo=linux&logoColor=black) ![Nginx](https://img.shields.io/badge/Nginx_Reverse_Proxy-009639?style=flat-square&logo=nginx&logoColor=white) ![Pterodactyl](https://img.shields.io/badge/Pterodactyl_Panel-2B6CB0?style=flat-square&logoColor=white) ![Lua](https://img.shields.io/badge/Lua_Engine_Hooks-2C2D72?style=flat-square&logo=lua&logoColor=white) |
+| **🛡️ Infrastructure & Systems** | ![Docker](https://img.shields.io/badge/Docker_Containers-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux_RHEL%2FUbuntu-FCC624?style=flat-square&logo=linux&logoColor=black) ![Nginx](https://img.shields.io/badge/Nginx_Reverse_Proxy-009639?style=flat-square&logo=nginx&logoColor=white) ![Pterodactyl](https://img.shields.io/badge/Pterodactyl_Panel-2B6CB0?style=flat-square&logoColor=white) ![Lua](https://img.shields.io/badge/Lua_Engine_Hooks-2C2D72?style=flat-square&logoColor=white) |
 | **🔧 Tooling & DevOps Workflow** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) ![Antigravity](https://img.shields.io/badge/Antigravity_IDE-6366F1?style=flat-square&logoColor=white) |
 
 </div>
@@ -101,72 +102,39 @@ I am a **Full Stack AI Developer** and **Systems Architect** based in **Bangalor
 
 ### 🚀 Flagship Engineering Projects
 
-```
-┌── [01] ────────────────────────────────────────────────────────────────────────────────────────┐
-│ 🧠 PRAGNA SETU — FIRST-PRINCIPLES AI SOCRATIC ENGINE                                          │
-│    URL: https://pragnasetu.in/                                                                 │
-│    Stack: React 19 • TypeScript • Python • LLM Orchestration • Tailwind CSS • Socratic SSM    │
-├────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ • Pedagogical Multi-Agent Engine: Built 3 specialized autonomous tutors (Acharya for physics & │
-│   chemistry, Manthan for mathematical logic, Yantra for algorithms) to guide inquiry step-wise.│
-│ • Direct-Answer Elimination: Designed prompt state machines achieving a 94.2% anti-leakage     │
-│   rate while boosting step-by-step problem resolution by 3.4x for Class 10-12, JEE & NEET.     │
-│ • Integrated Reading Room: Synchronized textbook theory dynamically with active chat contexts, │
-│   offering sub-240ms streaming TTFT and one-click PDF study notes synthesis.                   │
-└────────────────────────────────────────────────────────────────────────────────────────────────┘
+#### 1. 🧠 [Pragna Setu — First-Principles AI Socratic Tutoring Engine](https://pragnasetu.in/)
+*Stack: React 19 • TypeScript • Python FastAPI • LLM Orchestration • Tailwind CSS • Socratic SSM*
+- **Tri-Tutor Pedagogical Engine**: Engineered 3 specialized autonomous tutors:
+  - **Acharya**: *Science and concepts* (first-principles inquiry, physical assumptions, qualitative derivations).
+  - **Manthan**: *Mathematics, numerical physics and logic* (7-step solution skeleton, algebraic substitution, 4-attempt ceiling).
+  - **Yantra**: *Computing and the core engineering subjects* (execution traces, dry-run state tables, B.Tech engineering widening).
+- **Direct-Answer Elimination**: Designed prompt state machines achieving a **94.2%** anti-leakage rate while boosting step-by-step problem resolution by 3.4x for Class 10–12, JEE & NEET.
+- **Integrated Reading Room**: Synchronized textbook theory dynamically with active chat contexts, offering sub-240ms streaming TTFT and one-click PDF study notes synthesis.
 
-┌── [02] ────────────────────────────────────────────────────────────────────────────────────────┐
-│ 🎮 ROYALRP — ZERO-TRUST DISTRIBUTED FIVEM VIRTUAL WORLD & MICRO-ECONOMIC ENGINE                │
-│    Stack: FiveM • React 18 • Node.js • Python FastAPI • ONNX Runtime • Lua • MySQL            │
-├────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ • Zero-Trust Security Layer: Eliminated client-side monetary exploits across 287+ FastAPI      │
-│   endpoints with a rigid 4-tier session token validation boundary.                             │
-│ • RoyalOS Native Interface: Engineered 19 reactive apps in React 18 with 4 simulated hardware │
-│   tiers, dynamic spatial cellular signals, and lag-free NUI callbacks.                        │
-│ • Edge AI Salient Matting: Deployed U2-Net ONNX model locally for real-time asset ingestion    │
-│   without ongoing cloud inference overhead, maintaining locked 64-tick server rate at 128+ CCU.│
-└────────────────────────────────────────────────────────────────────────────────────────────────┘
+#### 2. 🎮 RoyalRP — Zero-Trust Distributed Virtual World & Micro-Economic Engine
+*Stack: FiveM • React 18 • Node.js • Python FastAPI • ONNX Runtime • Lua • MySQL*
+- **Zero-Trust Security Layer**: Eliminated client-side monetary exploits across **287+ FastAPI endpoints** with a rigid 4-tier session token validation boundary where clients report events, never numbers.
+- **RoyalOS Native Interface**: Engineered 19 reactive apps in React 18 with 4 simulated hardware tiers, dynamic spatial cellular signals, and lag-free NUI callbacks.
+- **Edge AI Salient Matting**: Deployed U2-Net ONNX model locally for real-time asset ingestion without ongoing cloud inference overhead, maintaining locked 64-tick server rate at 128+ CCU.
 
-┌── [03] ────────────────────────────────────────────────────────────────────────────────────────┐
-│ ⚡ NEXUS GAME PANEL — CONTAINERIZED SERVER ORCHESTRATION DASHBOARD                             │
-│    Stack: TypeScript • React • Tailwind CSS • Python • MySQL • Docker                          │
-├────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ • Automated Lifecycle Management: Built an orchestration bridge connecting the core management │
-│   API directly to Docker daemon worker nodes for dynamic server creation, restarts & telemetry.│
-│ • Non-Blocking Sync: Surmounted complex asynchronous event mismatches between frontend state   │
-│   and background container hooks to guarantee real-time telemetry streaming.                   │
-└────────────────────────────────────────────────────────────────────────────────────────────────┘
+#### 3. ⚡ Nexus Game Panel — Containerized Server Orchestration Dashboard
+*Stack: TypeScript • React • Tailwind CSS • Python • MySQL • Docker*
+- **Automated Lifecycle Management**: Built an orchestration bridge connecting the core management API directly to Docker daemon worker nodes for dynamic server creation, restarts & telemetry.
+- **Non-Blocking Sync**: Surmounted complex asynchronous event mismatches between frontend state and background container hooks to guarantee real-time telemetry streaming.
 
-┌── [04] ────────────────────────────────────────────────────────────────────────────────────────┐
-│ 🤖 DISCORD BOT ECOSYSTEM — HIGH-CONCURRENCY AUTOMATION & AUDIO STREAMING                       │
-│    Stack: Python • Discord.py • RCON Protocol • LavaSrc • MySQL                                │
-├────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ • Packet Synchronization: Resolved critical player kick loops in high-density Minecraft servers│
-│   by aligning RCON packet dispatch intervals with LuckPerms permission tables.                 │
-│ • 24/7 Media Streaming: Overcame library-level memory leaks in LavaSrc with custom background  │
-│   performance overrides to sustain uninterrupted high-fidelity audio streams.                  │
-└────────────────────────────────────────────────────────────────────────────────────────────────┘
+#### 4. 🤖 Discord Bot Ecosystem — High-Concurrency Automation & Audio Streaming
+*Stack: Python • Discord.py • RCON Protocol • LavaSrc • MySQL*
+- **Packet Synchronization**: Resolved critical player kick loops in high-density Minecraft servers by aligning RCON packet dispatch intervals with LuckPerms permission tables.
+- **24/7 Media Streaming**: Overcame library-level memory leaks in LavaSrc with custom background performance overrides to sustain uninterrupted high-fidelity audio streams.
 
-┌── [05] ────────────────────────────────────────────────────────────────────────────────────────┐
-│ 🏢 HAREY BHARATH SERVICES — ENTERPRISE WEB PLATFORM & RECRUITMENT PORTAL                       │
-│    URL: https://hareybharath.com                                                               │
-│    Stack: React • TypeScript • Tailwind CSS • Node.js                                          │
-├────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ • Corporate Architecture Migration: Spearheaded technological transition from legacy static    │
-│   HTML to a scalable, type-safe React + TypeScript ecosystem.                                  │
-│ • Full-Funnel Recruitment Pipeline: Engineering the Careers and Candidate Tracking subsystem   │
-│   with an accessible, responsive design system.                                                │
-└────────────────────────────────────────────────────────────────────────────────────────────────┘
+#### 5. 🏢 [Harey Bharath Services — Enterprise Web Platform & Recruitment Portal](https://hareybharath.com)
+*Stack: React • TypeScript • Tailwind CSS • Node.js*
+- **Corporate Architecture Migration**: Spearheaded technological transition from legacy static HTML to a scalable, type-safe React + TypeScript ecosystem.
+- **Full-Funnel Recruitment Pipeline**: Engineered Careers and Candidate Tracking subsystem with an accessible, responsive design system.
 
-┌── [06] ────────────────────────────────────────────────────────────────────────────────────────┐
-│ 🛍️ MYCAN — HERITAGE BRAND LUXURY E-COMMERCE                                                    │
-│    URL: https://mycan.in                                                                       │
-│    Stack: React • TypeScript • Tailwind CSS • Framer Motion                                    │
-├────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ • Cinematic Visual Storytelling: Engineered luxury digital storefront for a 65-year heritage   │
-│   fruit brand with optimized cinematic media pipelines and fluid product discovery.            │
-└────────────────────────────────────────────────────────────────────────────────────────────────┘
-```
+#### 6. 🛍️ [MyCan — Heritage Brand Luxury E-Commerce](https://mycan.in)
+*Stack: React • TypeScript • Tailwind CSS • Framer Motion*
+- **Cinematic Visual Storytelling**: Engineered luxury digital storefront for a 65-year heritage fruit brand with optimized cinematic media pipelines and fluid product discovery.
 
 ---
 
@@ -176,8 +144,8 @@ I am a **Full Stack AI Developer** and **Systems Architect** based in **Bangalor
 
 | Title & Investigation | Domain | Date | Status |
 | :--- | :--- | :---: | :---: |
-| **[First-Principles Pedagogical Inquiry: Architecture of Socratic AI Tutoring Engines](https://pragnasetu.in/)**<br><sub>*Resolving the "Direct-Answer Dilemma" in LLMs via Multi-Agent Domain Isolation (Acharya, Manthan, Yantra)*</sub> | **AI & LLM Systems** | Feb 2026 | `Published Whitepaper` |
-| **High-Concurrency State Replication & Modular Runtime Architecture for FiveM Server Environments**<br><sub>*Optimizing Tick Rates, Asynchronous MySQL Pipelines, and Cross-Language RPC Bridge Performance at 300+ CCU*</sub> | **Distributed Systems** | Jan 2026 | `Published Whitepaper` |
+| **[First-Principles Pedagogical Inquiry: Architecture of Socratic AI Tutoring Engines](https://pragnasetu.in/)**<br><sub>*Resolving the "Direct-Answer Dilemma" in LLMs via Multi-Agent Domain Isolation (Acharya: Science & Concepts • Manthan: Mathematics, Numerical Physics & Logic • Yantra: Computing & Core Engineering)*</sub> | **AI & LLM Systems** | Feb 2026 | `Published Whitepaper` |
+| **[High-Concurrency State Replication & Modular Runtime Architecture for FiveM Server Environments](https://github.com/DharshanTeja)**<br><sub>*Optimizing Tick Rates, Asynchronous MySQL Pipelines, and Cross-Language RPC Bridge Performance at 300+ CCU*</sub> | **Distributed Systems** | Jan 2026 | `Published Whitepaper` |
 
 </div>
 
@@ -186,17 +154,14 @@ I am a **Full Stack AI Developer** and **Systems Architect** based in **Bangalor
 ### 💼 Professional Journey
 
 ```text
-┌── [2026 - PRESENT] ──────────────────────────────────────────────────────────────────────────┐
-│ 🚀 Founder & Lead Architect • Pragna Setu (Bangalore, IN)                                     │
-│    • Founded and architected the next-generation AI Socratic Engine for STEM learning.        │
-│    • Deployed low-latency LLM streaming orchestration (<240ms TTFT) with domain-isolated     │
-│      multi-agent reasoning pipelines and interactive textbook workspaces.                     │
-└──────────────────────────────────────────────────────────────────────────────────────────────┘
-┌── [2025 - PRESENT] ──────────────────────────────────────────────────────────────────────────┐
-│ 💼 Software Engineer Intern • Harey Bharath Services (Bangalore, IN)                          │
-│    • Engineering full-stack web applications, business logic, and recruitment dashboards.     │
-│    • Migrating enterprise systems from legacy static codebases to modern React/TypeScript.   │
-└──────────────────────────────────────────────────────────────────────────────────────────────┘
+[2026 - PRESENT] Founder & Lead Architect • Pragna Setu (Bangalore, IN)
+                 • Founded and architected the next-generation AI Socratic Engine for STEM learning.
+                 • Deployed low-latency LLM streaming orchestration (<240ms TTFT) with domain-isolated
+                   multi-agent reasoning pipelines (Acharya, Manthan, Yantra).
+
+[2025 - PRESENT] Software Engineer Intern • Harey Bharath Services (Bangalore, IN)
+                 • Engineering full-stack web applications, business logic, and recruitment dashboards.
+                 • Migrating enterprise systems from legacy static codebases to modern React/TypeScript.
 ```
 
 ---
